@@ -43,8 +43,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   // --- opgave 3 ---
+  let trixie = dogsArray.includes("Trixie");
+  console.log("Opgave 3a", trixie);
 
-  console.log("Opgave 3", new3);
+  
+  let baxter = dogsArray.includes("Baxter");
+  console.log("Opgave 3b", baxter);
+
 
   // --- opgave 4 ---
 
