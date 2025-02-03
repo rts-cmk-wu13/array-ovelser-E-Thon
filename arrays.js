@@ -60,11 +60,11 @@ document.addEventListener("DOMContentLoaded", function () {
   // --- opgave 5 ---
   let newNumbersArray = numbersArray.map((number) => number*3);
   console.log("Opgave 5", newNumbersArray);
-  
+
 
   // --- opgave 6 ---
-
-  console.log("Opgave 6", new6);
+  let dogsArrayOneString = dogsArray.join("");
+  console.log("Opgave 6", dogsArrayOneString);
 
   // --- opgave 7 ---
 
