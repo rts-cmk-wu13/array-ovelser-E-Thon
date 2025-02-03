@@ -68,6 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
   console.log("Opgave 7b", blaabaer);
 
   // --- opgave 8 ---
-  
-  console.log("Opgave 8", new8);
+  let newDogsArray = dogsArray.filter((dogs) => dogs != "Polly");
+  console.log("Opgave 1", newDogsArray);
+
 }); // ends DOMContentLoaded
