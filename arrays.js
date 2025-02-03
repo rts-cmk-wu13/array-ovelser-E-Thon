@@ -31,13 +31,11 @@ document.addEventListener("DOMContentLoaded", function () {
   // --- Løs opgaverne herunder ---
   // --- opgave 1 ---
   let newNumbers = numbersArray.filter((numbers) => numbers > 20);
-  
   console.log("Opgave 1", newNumbers);
   
 
   // --- opgave 2 ---
   let newCatsArray = catsArray.push("Sniffles");
-
   console.log("Opgave 2; length:", newCatsArray);
   console.log("Opgave 2; catsArray:", catsArray);
 
@@ -58,9 +56,11 @@ document.addEventListener("DOMContentLoaded", function () {
   let salem = catsArray.find((cat) => cat === "Salem");
   console.log("Opgave 4b", salem);
 
-  // --- opgave 5 ---
 
-  console.log("Opgave 5", new5);
+  // --- opgave 5 ---
+  let newNumbersArray = numbersArray.map((number) => number*3);
+  console.log("Opgave 5", newNumbersArray);
+  
 
   // --- opgave 6 ---
 
