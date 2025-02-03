@@ -36,24 +36,35 @@ document.addEventListener("DOMContentLoaded", function () {
   
 
   // --- opgave 2 ---
+  let newCatsArray = catsArray.push("Sniffles");
+
+  console.log("Opgave 2; length:", newCatsArray);
+  console.log("Opgave 2; catsArray:", catsArray);
 
 
   // --- opgave 3 ---
 
+  console.log("Opgave 3", new3);
 
   // --- opgave 4 ---
 
+  console.log("Opgave 4", new4);
 
   // --- opgave 5 ---
 
+  console.log("Opgave 5", new5);
 
   // --- opgave 6 ---
 
+  console.log("Opgave 6", new6);
 
   // --- opgave 7 ---
 
+  console.log("Opgave 7", new7);
 
   // --- opgave 8 ---
+
+  console.log("Opgave 8", new8);
 
 
 }); // ends DOMContentLoaded
