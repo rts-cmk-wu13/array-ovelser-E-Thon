@@ -52,8 +52,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   // --- opgave 4 ---
-
-  console.log("Opgave 4", new4);
+  let bagheera = catsArray.find((cat) => cat === "Bagheera");
+  console.log("Opgave 4a", bagheera);
+  
+  let salem = catsArray.find((cat) => cat === "Salem");
+  console.log("Opgave 4b", salem);
 
   // --- opgave 5 ---
 
